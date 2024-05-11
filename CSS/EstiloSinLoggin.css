@@ -1,183 +1,67 @@
-.component-2-child {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid #0f0f0f;
-    box-sizing: border-box;
-}
-.contacto {
-    margin: 0;
-}
-.inicio {
-    position: absolute;
-    height: 106.89%;
-    width: 74.57%;
-    top: 26.83%;
-    left: 12.62%;
-    display: inline-block;
-}
-.component-2 {
-    position: absolute;
-    top: 46px;
-    left: 1136px;
-    width: 188px;
-    height: 61px;
-}
-.component-7 {
-    position: absolute;
-    top: 46px;
-    left: 570px;
-    width: 188px;
-    height: 61px;
-}
-.component-4 {
-    position: absolute;
-    top: 46px;
-    left: 1635px;
-    width: 243px;
-    height: 61px;
-}
-.inicio4 {
-    position: absolute;
-    height: 106.89%;
-    width: 74.56%;
-    top: 26.83%;
-    left: 12.62%;
-    display: inline-block;
-}
-.component-3 {
-    position: absolute;
-    top: 46px;
-    left: 1350px;
-    width: 250px;
-    height: 61px;
-}
-.component-5-child {
-    position: absolute;
-    height: 87.29%;
-    width: 85.17%;
-    top: 0%;
-    right: 8.9%;
-    bottom: 12.71%;
-    left: 5.93%;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid #0f0f0f;
-    box-sizing: border-box;
-}
-.acerca-de-nosotros {
-    position: absolute;
-    height: 76.57%;
-    width: 100%;
-    top: 23.4%;
-    left: 0%;
-    display: inline-block;
-}
-.component-5 {
-    position: absolute;
-    top: 46px;
-    left: 763px;
-    width: 373px;
-    height: 70px;
-}
-.component-6-child {
-    position: absolute;
-    height: 87.29%;
-    width: 85.17%;
-    top: 0%;
-    right: 8.9%;
-    bottom: 12.71%;
-    left: 5.93%;
-    background-color: rgba(0, 0, 0, 0);
-}
-.tv-1-child {
-    position: absolute;
-    top: 158.5px;
-    left: -0.5px;
-    border-top: 1px solid #000;
-    box-sizing: border-box;
-    width: 1991px;
-    height: 1px;
-}
-.tv-1-item {
-    position: absolute;
-    top: -2px;
-    left: 487px;
-    width: 1px;
-    height: 161px;
-    object-fit: contain;
-}
-.score-group {
-    position: absolute;
-    top: 62px;
-    left: 225px;
-    font-size: 25px;
-    color: #000;
-    display: inline-block;
-    width: 249px;
-    height: 45px;
-}
-.pngtreeopen-book-design-35525 {
-    position: absolute;
-    top: 6px;
-    left: 61px;
-    width: 130px;
-    height: 153px;
-    object-fit: cover;
-}
-.tv-1-inner {
-    position: absolute;
-    top: 264px;
-    left: 111px;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    width: 1767px;
-    height: 857px;
-}
-.contacto1 {
-    position: absolute;
-    top: 188px;
-    left: 898px;
-    font-size: 25px;
-    color: #000;
-    display: inline-block;
-    width: 192px;
-    height: 45px;
-}
-.informacin-de-contacto {
-    margin: 0;
-    font-weight: 500;
+/*Estilos para la barra de navegacion*/
+.logo {
+    display: flex;
+    align-items: center;
+    width: 90px;
+    height: auto;
 }
 
-.ubicacin {
-    margin: 0;
-    font-weight: 600;
+.company-name {
+    margin-left: 10px; /* Ajusta el espacio entre el logo y el nombre de la empresa */
+    position: relative; /* Establece la posición relativa */
 }
-.si-tienes-alguna-container {
+
+.company-name:after {
+    content: "";
     position: absolute;
-    top: 285px;
-    left: 137px;
-    font-size: 25px;
-    color: #000;
-    text-align: left;
-    display: inline-block;
-    width: 1709px;
-    height: 1002px;
+    top: 50%;
+    right: -5px;
+    height: 100%;
+    border-right: 1px solid black; /* Línea vertical negra */
+    transform: translateY(-50%);
 }
-.tv-1 {
-    width: 100%;
-    position: relative;
-    background-color: #fff;
-    height: 1394px;
-    overflow: hidden;
-    text-align: center;
-    font-size: 20px;
-    color: #2563bf;
-    font-family: Inter;
+
+.nav-links {
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0; /* Elimina el margen de la lista */
+    padding: 0; /* Elimina el relleno de la lista */
 }
+
+.nav-links .nav-item {
+    margin-right: 20px; /* Espacio entre los botones */
+}
+
+.nav-links .nav-item:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último botón */
+}
+
+.nav-links .nav-link {
+    padding: 8px 15px; /* Ajusta el relleno para el espacio dentro del botón */
+    border: 1px solid black; /* Agrega un borde de 1px sólido negro */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    width: 80%; /* Ocupa el 80% del ancho de la fila */
+}
+
+.row-border {
+    border-bottom: 1px solid black; /* Línea negra de un píxel debajo de la fila */
+}
+
+/*Estilos de la pagina Inicio*/
+
+
+/*Estilos de la pagina Acerca de nosotros*/
+
+
+/*Estilos de la pagina Contacto*/
+
+
+/*Estilos de la pagina Reportar error*/
+
+
+/*Estilos de la pagina Inicio de sesion*/
+
