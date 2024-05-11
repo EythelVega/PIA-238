@@ -52,12 +52,92 @@
 }
 
 /*Estilos de la pagina Inicio*/
+.noticias {
+    padding: 20px;
+    text-align: center;
+}
 
+.noticia {
+    display: none;
+    margin: 20px 0;
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.carrusel {
+    position: relative;
+    overflow: hidden;
+}
+
+.navegacion {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+.mantenimiento {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+
+.titulo-mantenimiento {
+    flex: 1;
+    padding: 20px;
+}
+
+.informacion-mantenimiento {
+    flex: 2;
+    padding: 20px;
+}
 
 /*Estilos de la pagina Acerca de nosotros*/
+.TAcerca {
+    text-align: center;
+}
 
+.acerca {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
 
 /*Estilos de la pagina Contacto*/
+.contacto-container {
+    text-align: center;
+}
+
+.contacto {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; }
 
 
 /*Estilos de la pagina Reportar error*/
