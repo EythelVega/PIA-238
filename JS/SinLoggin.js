@@ -40,3 +40,26 @@ document.addEventListener('DOMContentLoaded', function() {
     botonSiguiente.addEventListener('click', mostrarNoticiaSiguiente);
     botonAnterior.addEventListener('click', mostrarNoticiaAnterior);
 });
+
+const formulario = document.getElementById('formulario-contacto');
+
+  // Agregamos un event listener para el evento submit
+  formulario.addEventListener('submit', function(event) {
+    // Evitamos que el formulario se envíe automáticamente
+    event.preventDefault();
+
+    // Validamos que todos los campos estén llenos
+    const nombre = document.getElementById('nombre').value.trim();
+    const correo = document.getElementById('correo').value.trim();
+    const descripcion = document.getElementById('descripcion').value.trim();
+
+    if (nombre === '' || correo === '' || descripcion === '') {
+      alert('Por favor, complete todos los campos antes de enviar el formulario.');
+      return;
+    }
+
+    // Si todos los campos están llenos, podemos enviar el formulario
+    // Aquí podrías agregar código para enviar los datos al servidor, por ejemplo, mediante AJAX
+    alert('El formulario se envió correctamente.');
+    formulario.reset(); // Reiniciamos el formulario
+  });
