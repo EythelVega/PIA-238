@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/EstiloSinLoggin.css">
     <title>Reportar error</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
+
 <body>
-<!--Barra de navegacion-->
-  <div class="container-fluid">
+    <!--Barra de navegacion-->
+    <div class="container-fluid">
         <div class="row align-items-center row-border">
             <div class="col-3">
                 <div class="logo">
-                  <img src="Recursos/Logo.png" alt="Logo de la Empresa." class="img-fluid logo">
+                    <img src="Recursos/Logo.png" alt="Logo de la Empresa." class="img-fluid logo">
                     <span class="company-name">SCORE GROUP</span>
                 </div>
             </div>
@@ -29,7 +32,61 @@
         </div>
     </div>
 
-<!--Contenido de la pagina-->
-        
+    <!--Contenido de la pagina-->
+    <div class="container-fluid" style="margin-top: 40px;">
+        <div class="row">
+            <!-- Primer cuadro: Información estática -->
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <!-- Contenido estático --> 
+                        <h3>Reportar un Error</h3>
+                        <p>En SCORE GROUP, valoramos tu retroalimentación y estamos comprometidos en brindar una
+                            experiencia sin problemas en nuestra plataforma.Si has encontrado un error o problema
+                            técnico,por favor ayúdanos a mejorarlo informándonos sobre ello.
+                        </p>
+
+                        <p>Si tienes alguna pregunta, comentario o necesitas asistencia, no dudes en ponerte en contacto
+                            con nosotros. Estamos aquí para ayudarte en todo momento.</p>
+                        <h3>Soporte Técnico Adicional</h3>
+                        <p>Si necesitas asistencia inmediata o tienes problemas técnicos urgentes,por favor, comunícate con nuestro
+                            equipo de soporte técnico al siguiente correo electrónico o número de teléfono:
+                            <br>Teléfono de Contacto: +52 81 1033 0594
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segundo cuadro: Formulario -->
+
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Formulario de Reporte</h5>
+                        <!-- Formulario -->
+                        <form>
+                            <div class="form-group">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="correo">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="correo"
+                                    placeholder="Ingrese su correo electrónico">
+                            </div>
+                            <div class="form-group">
+                                <label for="descripcion">Descripción del Error</label>
+                                <textarea class="form-control" id="descripcion" rows="3"
+                                    placeholder="Describa el error"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
 </body>
+
 </html>
