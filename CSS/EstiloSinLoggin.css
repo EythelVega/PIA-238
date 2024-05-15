@@ -169,6 +169,10 @@ button:hover {
     margin: auto; /* Esto centrará el div si no usa todo el ancho de la columna */
 }
 
+.card
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 /*Estilos de la pagina Reportar error 
