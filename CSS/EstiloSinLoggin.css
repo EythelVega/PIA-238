@@ -160,14 +160,19 @@ button:hover {
 }
 
 .contacto {
-    background-color: #f2f2f2;
-    border: 1px solid #ddd;
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto; }
+    border: 1px solid #000;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px; /* Añade padding dentro del cuadro para separar el texto de los bordes */
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+    max-width: 1200px; /* Establece un ancho máximo si es necesario */
+    margin: auto; /* Esto centrará el div si no usa todo el ancho de la columna */
+}
 
 
-/*Estilos de la pagina Reportar error*/
+
+/*Estilos de la pagina Reportar error 
+
 
 
 /*Estilos de la pagina Inicio de sesion*/
