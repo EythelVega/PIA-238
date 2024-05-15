@@ -116,19 +116,42 @@ button:hover {
 .informacion-mantenimiento {
     flex: 2;
     padding: 20px;
+
+
+
+    background-color: #f2f2f2;
+    border: 1px solid #111111;
+    padding: 20px;
+    max-width: 1300px;
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    font-size: 20PX;
 }
 
 /*Estilos de la pagina Acerca de nosotros*/
 .TAcerca {
     text-align: center;
+    /*position: absolute;
+    top: 264px;
+    left: 111px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 1767px;
+    height: 857px;*/
+    
+    
 }
 
+
 .acerca {
-    background-color: #f2f2f2;
-    border: 1px solid #ddd;
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    position: absolute;
+    top: 154px;
+    left: 411px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 1267px;
+    height: 737px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 /*Estilos de la pagina Contacto*/
