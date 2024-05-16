@@ -184,7 +184,21 @@ button:hover {
     border-radius: 2px !important; /* Ajusta el radio del borde */
     border: 1px solid black !important; /* Ajusta el grosor y el color del borde */
 }
+.btn-entrar{
+    background-color: white !important;
+    color: black !important;
+    padding: 6px 12px !important; /* Ajusta el padding para reducir el tamaño del botón */
+    font-size: 21px !important; /* Ajusta el tamaño de la fuente */
+    border-radius: 2px !important; /* Ajusta el radio del borde */
+    border: 1px solid black !important; /* Ajusta el grosor y el color del borde */
+}
 
+.imgincio{
+
+    width: 200px; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+
+}
 /*Estilos de la pagina Reportar error 
 
 
