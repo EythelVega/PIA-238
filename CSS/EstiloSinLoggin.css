@@ -7,9 +7,10 @@
 }
 
 .company-name {
-    margin-left: 100px; 
-    position: absolute; 
-    
+     
+    margin-left: 100px; /* Ajusta el espacio entre el logo y el nombre de la empresa */
+    position: absolute; /* Establece la posición relativa */
+    font-size: 35px;
 }
 
 .company-name:after {
