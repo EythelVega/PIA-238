@@ -74,3 +74,9 @@ function iniciarSesion() {
     alert('Inicio de sesión exitoso');
    
 }
+
+$(document).ready(function() {
+    $('.carousel').carousel({
+        interval: 1000
+    });
+});
