@@ -1,5 +1,4 @@
-// JAVASCRIPT PARA LA PAGINA DE INICIO
-// JavaScript para controlar el carrusel de noticias
+
 document.addEventListener('DOMContentLoaded', function() {
     const noticias = document.querySelectorAll('.noticia');
     let indiceNoticiaActual = 0;
@@ -57,28 +56,21 @@ formularioReporte.addEventListener('submit', function(event) {
         return;
     }
 
-    // Aquí podrías agregar código para enviar los datos del formulario al servidor, por ejemplo, mediante AJAX
     alert('El formulario se envió correctamente.');
     formularioReporte.reset();
 });
 
 function iniciarSesion() {
-    // Obtener valores de los campos de entrada
     var tipo = document.getElementById('tipo').value;
     var correo = document.getElementById('correo').value;
     var contrasena = document.getElementById('contrasena').value;
 
-    // Validar que los campos no estén vacíos
     if (tipo.trim() === '' || correo.trim() === '' || contrasena.trim() === '') {
         alert('Por favor, complete todos los campos antes de iniciar sesión.');
         return;
     }
 
-    // Aquí puedes agregar la lógica para enviar los datos al servidor
-    // Por ejemplo, mediante una solicitud AJAX
-    
-    // Simulación de inicio de sesión exitoso
+
     alert('Inicio de sesión exitoso');
-    // Redirigir a la página principal u otra página deseada
-    // window.location.href = 'pagina_principal.html';
+   
 }

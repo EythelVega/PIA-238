@@ -99,24 +99,24 @@ header {
 
 
 .nav-links {
-    list-style: none; /* Elimina los puntos de la lista */
-    margin: 0; /* Elimina el margen de la lista */
-    padding: 0; /* Elimina el relleno de la lista */
+    list-style: none; 
+    margin: 0; 
+    padding: 0;
     
 }
 
 .nav-links .nav-item {
-    margin-right: 60px; /* Espacio entre los botones */
+    margin-right: 60px; 
 }
 
 .nav-links .nav-item:last-child {
-    margin-right: 0; /* Elimina el margen derecho del último botón */
+    margin-right: 0; 
 }
 
 .nav-links .nav-link {
-    padding: 8px 15px; /* Ajusta el relleno para el espacio dentro del botón */
-    border: 1px solid black; /* Agrega un borde de 1px sólido negro */
-    text-decoration: none; /* Elimina el subrayado predeterminado */
+    padding: 8px 15px;
+    border: 1px solid black; 
+    text-decoration: none; 
 }
 
 .nav-links {
